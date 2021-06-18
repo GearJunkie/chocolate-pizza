@@ -1,0 +1,52 @@
+body {
+  width: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  box-sizing: border-box;
+  
+
+}
+
+header {
+  
+}
+header img {
+
+}
+.icons {
+  
+}
+
+
+h2 {
+
+}
+h4 {
+  color: grey;
+}
+
+section {
+ 
+}
+#choco-pizza {
+
+}
+
+#content {
+  display: block;
+}
+
+
+
+
+.recipechecklist1, .recipechecklist2 {
+  background-image: url("images/list-bg.png");
+ 
+}
+
+
+
+
+#copyright {
+  text-align: center;
+}
