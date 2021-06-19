@@ -1,0 +1,67 @@
+body {
+  width: 100%;
+  margin-left: 15%;
+  margin-right: 15%;
+  box-sizing: border-box;
+  
+
+}
+
+header {
+  
+}
+header img {
+
+}
+.icons {
+  
+}
+
+
+h2 {
+
+}
+h4 {
+  color: grey;
+}
+
+section {
+ 
+}
+#choco-pizza {
+
+}
+
+#content {
+  display: block;
+  text-align: center;
+}
+
+
+
+
+.recipechecklist1, .recipechecklist2 {
+  background-image: url("images/list-bg.png");
+}
+/* input {
+  width: 20px;
+   position: relative;
+   left: 200px;
+
+   vertical-align: middle;
+} */
+label {
+  width: 200px;
+  position: relative;
+  left: -20px;
+
+  display: inline-block;
+  vertical-align: middle;
+} 
+
+
+
+
+#copyright {
+  text-align: center;
+}

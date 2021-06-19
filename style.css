@@ -1,52 +1,104 @@
 body {
-  width: 100%;
-  margin-left: 15%;
-  margin-right: 15%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
   box-sizing: border-box;
-  
-
+  /* padding: 90px; */
 }
 
 header {
-  
-}
-header img {
-
-}
-.icons {
-  
-}
-
-
-h2 {
-
-}
-h4 {
-  color: grey;
-}
-
-section {
- 
-}
-#choco-pizza {
+  display: flex;
+  margin-left: 220px;
 
 }
 
-#content {
+headerpic1 {
+  width: 50px;
+
+}
+
+ul {
+  display: flex;
+  justify-content: space-evenly;
+  color: black;
+  margin-left: 85px;
+  margin-right: 190px;
+
+}
+
+
+
+
+/* SECTIONS: */
+section:nth-child(1) {
+  /* background-color: blue; */
+  width: 960px;
+  margin: 30px auto;
   display: block;
+  justify-content: center;
+  padding-top: 15px;
+  line-height: 1.2;
 }
 
-
-
-
-.recipechecklist1, .recipechecklist2 {
+section:nth-child(2) {
+  /* background-color: red; */
   background-image: url("images/list-bg.png");
- 
+  padding-top: 25px;
+  padding-bottom: 25px;
+  width: 960px;
+  margin: 30px auto;
+  display: flex;
+  justify-content: center;
+
+}
+label {
+  font-size: large;
+  font-family: "Comic Sans MS", "Comic Sans", cursive;
+}
+
+section img {
+  padding: 15px;
+}
+
+section:nth-child(3) {
+  width: 960px;
+  height: 100px;
+  margin-left: 240px;
+  margin-right: auto;
+  /* background-color: green; */
+  display: flex;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+
+section article {
+  padding-left: 10px;
+  position: relative;
+  top: 15px;
+  width: 960px;
+  height: 100px;
+  /* background-color: pink; */
+}
+h2 {
+  padding-top: 5px;
+  font-size: 20px;
 }
 
 
 
-
-#copyright {
-  text-align: center;
+.scrollable {
+  height: 334px; 
+  overflow-y: auto;
 }
+
+footer {
+  display: flex;
+  width: 960px;
+  height: 100px;
+  margin: 30px auto;
+
+}
+img.align-left {
+  float: left;
+}
+
