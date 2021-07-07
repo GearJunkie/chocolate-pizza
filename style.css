@@ -54,7 +54,7 @@ section:nth-child(1) {
 }
 
 section:nth-child(2) {
-  background-image: url("images/list-bg.png");
+  background-image: url("./images/list-bg.png");
   padding-top: 35px;
   padding-bottom: 45px;
   width: 940px;
